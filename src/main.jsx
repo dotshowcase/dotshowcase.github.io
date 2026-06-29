@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import { Homepage, Dotfiles } from './pages/index.jsx'
 import Navbar from './components/navbar.jsx'
@@ -14,17 +14,17 @@ function Layout() {
   );
 }
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Homepage />
       },
       {
-        path: "/dots",
+        path: "dots",
         element: <Dotfiles />
       }
     ]

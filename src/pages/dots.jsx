@@ -6,7 +6,7 @@ export default function Dotfiles() {
     { id: 3, username: "LunarVim", description: "a distro for who wants everything", link: "https://github.com/lunarvim/lunarvim" },
     { id: 4, username: "nvim-mini", description: "a distro for mini.nvim lovers", link: "https://github.com/nvim-mini/MiniMax" },
     { id: 5, username: "folke", description: "folke's neovim dotfiles", link: "https://github.com/folke/dot/tree/master/nvim" },
-    { id: 6, username: "folke", description: "echasnovski's neovim dotfiles", link: "https://github.com/echasnovski/nvim" },
+    { id: 6, username: "echasnovski", description: "echasnovski's neovim dotfiles", link: "https://github.com/echasnovski/nvim" },
   ];
 
   return (

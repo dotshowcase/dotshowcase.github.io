@@ -11,10 +11,9 @@ export default function Dotfiles() {
 
   return (
     <div className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Neovim Dotfiles</h2>
       <div className="overflow-hidden border border-gray-200 shadow-md rounded-lg">
         <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-neutral-900">
+          <thead className="bg-neutral-950">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">ID</th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Username</th>
@@ -22,7 +21,7 @@ export default function Dotfiles() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Link</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 bg-neutral-900">
+          <tbody className="divide-y divide-gray-200 bg-neutral-950">
             {dotfiles.map((item) => (
               <tr key={item.id}>
                 <td className="px-6 py-4 whitespace-nowrap">{item.id}</td>

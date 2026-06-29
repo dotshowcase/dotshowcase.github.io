@@ -1,5 +1,7 @@
 # dotshowcase
 
+<https://dotshowcase.netlify.app/#/dots>
+
 A website to show your Neovim dotfiles.
 
 ## Building / Serving

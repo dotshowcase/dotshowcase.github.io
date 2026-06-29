@@ -1,10 +1,14 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <nav className="bg-neutral-900 p-4 border-b border-gray-700">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-xl font-bold">dotshowcase</h1>
+        <div className="flex items-center space-x-2">
+          <img src="/favicon.svg" alt="Logo" className="w-8 h-8 rounded-lg" />
+          <h1 className="text-white text-xl font-bold"><Link href="/">dotshowcase</Link></h1>
+
+        </div>
         <ul className="flex space-x-6 text-gray-300">
           <li>
             <NavLink
